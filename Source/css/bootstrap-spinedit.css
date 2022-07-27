@@ -1,7 +1,0 @@
-﻿div.spinedit { display: inline-block; position: relative; }
-input[type="text"].spinedit {width: 23px;}
-div.spinedit .fa-caret-up,
-div.spinedit .fa-caret-down { position: relative; cursor: pointer; width: 12px; left: 8px; }
-div.spinedit .fa-caret-up {top: -6px;}
-div.spinedit .fa-caret-down {top: 6px;left: -4px;}
-.form-search div.spinedit, .form-inline div.spinedit, .form-horizontal div.spinedit { top: 5px; }
