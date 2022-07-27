@@ -1,0 +1,506 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WebMasterPage.master.cs" Inherits="WebMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <script data-ad-client="ca-pub-4050625739799144" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="Rèm Cửa 24h" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Rèm Cửa 24h" />
+    <meta property="og:title" content="Rèm Cửa 24h" />
+    <meta property="og:description" content="Rèm Cửa 24h" />
+    <meta http-equiv="cleartype" content="on" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="resource-type" content="document" />
+    <meta name="distribution" content="global" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="1 days" />
+    <title>Rèm Cửa 24h</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0" name="viewport" />
+    <script src="/js/jquery.min.1.11.0.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js" type="text/javascript"></script>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/jquery-migrate-1.2.0.min.js"></script>
+    <script src="/js/option_selection.js" type="text/javascript"></script>
+    <script src="/js/api.jquery.js" type="text/javascript"></script>
+    <%--<script data-target=".product-resize" data-parent=".content-product-list" data-img-box=".image-resize" src="/js/fixheightproduct.js"></script>--%>
+    <script src="/js/haravan.plugin.1.0.js"></script>
+    <script src="/js/jquery.flexslider.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/addthis_widget.js#pubid=ra-54aa0592190a1461" async="async"></script>
+    <script src="/js/newjs.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.3.3.1.css" />
+    <!-- Theme haravan-->
+    <link rel="stylesheet" href="/css/haravantheme.1.0.css" />
+    <!-- Latest compiled and minified JavaScript -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/sidebar.css" rel="stylesheet" type="text/css" media="all" />
+    <%--<link rel="stylesheet" type="text/css" href="//hstatic.net/0/global/design/member/fonts/arial,&#39;helveticaneue&#39;,helvetica,sans-serif.css" />--%>
+    <link href="/css/newcss.css" rel="stylesheet" />
+    <link href="/css/checkout.css" rel="stylesheet" />
+    <link href="/css/fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet" type="text/css" />
+    <link href="/css/push-menu.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="/js/push-menu.js" type="text/javascript"></script>
+    <link href="/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="/js/owl.carousel.js" type="text/javascript"></script>
+    <!--<script src="/js/scripts.min.js"></script>-->
+    <!--<script>run('aaae39ba590b286f-f8395e624ad59cc53c806666-3c8e0d1c07700f2ed718eb42dab8dd479c410313ec9dca31cba6c33036', 'js_session1', false);</script>-->
+    <asp:ContentPlaceHolder ID="headlink" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 90) {
+
+                $('#menu-scroll').addClass('fixed-top');
+            } else {
+
+                $('#menu-scroll').removeClass('fixed-top');
+            }
+        });
+    </script>
+    <form id="form1" runat="server">
+        <div class="wrapper relative">
+            <header class="header-fixed clearfix">
+                <div class="free-shipping">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="top-header">
+                                    <div class="text-icon">
+                                        <img src="/images/home.png" alt="Phụ kiện Màn Rèm Cửa 24H" title="Phụ kiện Màn Rèm Cửa 24H" class="img-icon" />
+                                        Zalo 0935 918 327
+                                    </div>
+                                    <div class="text-icon">
+                                        <img src="/images/cod.png" alt="Phụ kiện Màn Rèm Cửa 24H" title="Phụ kiện Màn Rèm Cửa 24H" class="img-icon" />
+                                        0914 060 927
+                                    </div>
+                                    <div class="text-icon">
+                                        <img src="/images/100authentic.png" alt="Phụ kiện Màn Rèm Cửa 24H" title="Phụ kiện Màn Rèm Cửa 24H" class="img-icon" />
+                                        Chất lượng cao cấp
+                                    </div>
+                                    <div class="clr"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative clearfix">
+                    <div class="container clearfix wrap-logo">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="logo">
+                                    <!-- LOGO -->
+                                    <h2>
+                                        <a href="/" title="Phụ kiện Màn Rèm Cửa 24H">
+                                            <span class="hidden">Rèm Cửa 24h </span>
+                                            <img src="/images/logo.png" alt="Phụ kiện Màn Rèm Cửa 24H" title="Phụ kiện Màn Rèm Cửa 24H" class="img-responsive" />
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                            </div>
+                            <div class="col-lg-4 col-md-9 col-sm-12 col-xs-12">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-9 col-sm-12 col-xs-12 <%--header-right--%>">
+                                        <p class="footer-formm">
+                                            <%--<input type="hidden" id="contact_tags" name="contact[tags]" value="search" />--%>
+                                            <%--<input name="search" type="search" id="contact_search" class="input_search" placeholder="Tìm Kiếm" required="required" />
+                                            <input type="button" id="searchBtn" class="search" value="Tìm Kiếm" />--%>
+                                            <input type="search" name="search" id="txt_KeySearch" runat="server" class="input-search" onkeypress="return runScript(event)" placeholder="Từ khóa tìm kiếm..." />
+                                            <a class="button search" type="submit" onclick="searchClick()" id="btnSearch"><i class="fa fa-search"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <%--enter tìm kiếm--%>
+                            <script type="text/javascript">
+                                function searchClick() {
+                                    window.location.href = '/search?id=' + document.getElementById('txt_KeySearch').value;
+                                }
+                            </script>
+                            <%--<div class="phone">
+                                <a href="#" class="btn btn-phone"><i class="fas fa-phone"></i></a>
+                            </div>--%>
+                        </div>
+                    </div>
+                </div>
+                <div class="header menu-scroll" id="menu-scroll">
+                    <div class="container">
+                        <input type="checkbox" id="chk" />
+                        <label for="chk" class="show-menu-btn">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </label>
+                        <ul class="menu">
+                            <li class="drop-menu-y">
+                                <a href="/">Trang Chủ</a>
+                            </li>
+                            <%--<a class="active-home" href="#">Trang Chủ</a>--%>
+                            <li class="drop-menu-y">
+                                <a href="/gioi-thieu">Giới Thiệu</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" onclick="openNav()">Sản phẩm <i class="fa fa-angle-down" data-toggle="dropdown"></i></a>
+                                <ul class="dropdown-menu">
+                                    <asp:Repeater ID="rpMenu" runat="server" OnItemDataBound="rpMenu_ItemDataBound">
+                                        <ItemTemplate>
+                                            <li class="dropdown-submenu"><a href="../../<%#Eval("link_seo")%>"><%#Eval("productcate_title") %><i class="<%#Eval("kt") %>" data-toggle="dropdown"></i></a>
+                                                <ul class="dropdown-menu" <%#Eval("kt") %>>
+                                                    <asp:Repeater ID="rpMenuProduct" runat="server">
+                                                        <ItemTemplate>
+                                                            <li class="dropdown-submenu">
+                                                                <a href="../..<%#Eval("link_seo")%>"><span><%#Eval("productcate_title") %></span>
+                                                                </a>
+                                                            </li>
+                                                        </ItemTemplate>
+                                                    </asp:Repeater>
+
+                                                </ul>
+                                            </li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+
+                                </ul>
+                            </li>
+
+                            <li class="drop-menu-y">
+                                <a href="/tin-tuc">Tin Tức</a>
+                            </li>
+                            <li class="drop-menu-y">
+                                <a href="/lien-he">Liên Hệ</a>
+                            </li>
+                             <li class="drop-menu-y">
+                                <a href="/gio-hang">Giỏ Hàng</a>
+                            </li>
+                            <li class="drop-menu-y" id="li_Login" runat="server">
+                                <a href="/dang-nhap">Đăng nhập</a>
+                            </li>
+                            <li class="drop-menu-y" id="li_User" runat="server" >
+                                <a href="#"data-toggle="dropdown">
+                                <input id="txtUser" style="background: none; border: none;" runat="server" />
+                                </a>
+                                <ul class="dropdown-menu" style="top:48px;height: 53px;" >
+                                   <li>
+                                       <a href="#" style="width: 211px" id="btn_Logout" runat="server" onserverclick="btn_Logout_ServerClick">Đăng xuất</a>
+                                   </li>
+                                </ul>
+                            </li>
+                            <label for="chk" class="hide-menu-btn">
+                                <i class="fas fa-times"></i>
+                            </label>
+                        </ul>
+                    </div>
+
+                </div>
+            </header>
+            <asp:ContentPlaceHolder ID="hihead" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="himenu" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="higlobal" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="hislider" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="hibelowtop" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="hibodyhead" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="hibodywrapper" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="hibodybottom" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="hibelowbottom" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="hifooter" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer>
+                <!--footer-->
+                <div id="footer-info">
+                    <!-- Begin footer navigation -->
+                    <script>
+                        (function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=263266547210244&version=v2.0";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                    </script>
+
+                    <!-- End footer navigation -->
+                    <div class="menu-footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="linewhite">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-md-12">
+                                    <div class="mail-footer">
+                                        <div class="txtalign title-email relative fullscreen">
+                                            <i class="icon-email relative"></i>
+                                            <div>
+                                                <h4>ĐĂNG KÍ NHẬN EMAIL </h4>
+                                                <br />
+                                                Đăng kí để nhận được những thông tin khuyến mại và quà tặng hấp dẫn!
+                                            </div>
+                                        </div>
+                                        <div id="mailing-list " class="inputmail fullscreen">
+                                            <div accept-charset="UTF-8" class="contact-form" id="subcribeForm" method="post">
+                                                <input type="hidden" name="_token" value="eNvWLZicVvOapULGvQ8XMNk6m2MhaDZizPDxuFob" />
+                                                <input name="form_type" type="hidden" value="customer" />
+                                                <input name="utf8" type="hidden" value="✓" />
+                                                <p class="footer_form">
+                                                    <input type="hidden" id="contact_tags" name="contact[tags]" value="khách hàng tiềm năng, bản tin" />
+                                                    <input name="reg_email" type="email" id="contact_email" runat="server" class="input_email" value="phungduc@gmail.com" required="required" />
+                                                    <%--<input type="button" id="formBtn" class=" secondary bt_email" value="Đăng ký" />--%>
+                                                    <button type="button" id="btnDangKy" runat="server" class="secondary bt_email" onserverclick="btnDangKy_ServerClick">Đăng ký</button>
+                                                </p>
+                                            </div>
+                                            <%--<script type="text/javascript">
+                                                $('#formBtn').click(function () {
+                                                    var formData = $('#subcribeForm').serialize();
+                                                    $.ajax({
+                                                        url: "/subcribe",
+                                                        type: "post",
+                                                        data: formData,
+                                                        success: function (response) {
+                                                            alert(response);
+
+                                                        },
+                                                        error: function (jqXHR, textStatus, errorThrown) {
+                                                            console.log(textStatus, errorThrown);
+                                                        }
+
+
+                                                    });
+                                                });
+                                            </script>--%>
+                                        </div>
+                                        <div class="clr"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="linewhite">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <p class="txtalign copyright">
+                                    </p>
+                                    <h1 style="text-align: center"><span style="color: #00804d">&copy <strong>RÈM CỬA 24H</strong></span></h1>
+                                    <p style="text-align: center; line-height: 1.7">Rèm cửa 24h là một trong các đơn vị hàng đầu trong lĩnh vực thiết kế và thi công rèm cửa. Chúng tôi là những con người trẻ, tràn đầy nhiệt huyết kinh doanh với tâm huyết là mang đến cho khách hàng những sản phẩm tốt nhất. Chúng tôi không ngừng phát triển và ngày càng khẳng định vị thế của mình trong thị trường rèm cửa tại VN để được khách hàng luôn tín nhiệm và sử dụng.</p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <p class="txtalign copyright">
+                                    </p>
+
+                                    <h1 style="text-align: center"><span style="color: #00804d"><strong>LIÊN HỆ</strong></span></h1>
+                                    <asp:Repeater ID="rpContact" runat="server">
+                                        <ItemTemplate>
+                                            <p style="text-align: center">Địa chỉ :<%#Eval("contact_address")%></p>
+
+                                            <p style="text-align: center">Email : <a href="mailto:<%# Eval("contact_email")%>"><%# Eval("contact_email")%></a></p>
+
+                                            <p style="text-align: center">Website : <a href="<%# Eval("contact_link")%>"><%# Eval("contact_link")%></a></p>
+
+                                            <p style="text-align: center"><span style="color: #FF0000"><strong>Hotline</strong>: <strong><%# Eval("contact_hotline")%></strong></span></p>
+
+                                            <p style="text-align: center"></p>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+
+                                    <%--<p>
+                                        <iframe frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9462459367955!2d108.1926803154286!3d16.068278988881524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421854931e8189%3A0x41f490ee552d8f54!2zMjE1IFRow6FpIFRo4buLIELDtGksIENow61uaCBHacOhbiwgUS4gVGhhbmggS2jDqiwgxJDDoCBO4bq1bmcsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1502024209502" style="border: 0" width="100%"></iframe>
+                                    </p>--%>
+
+                                    <p></p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <p class="txtalign copyright">
+                                    </p>
+                                    <h1 style="text-align: center"><span style="color: #0099ff"><strong>BẢN ĐỒ </strong></span></h1>
+                                    <div class="map">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.5297595852426!2d108.21593391416943!3d16.037976344536265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219ebbbc697bb%3A0x4059a71f0c585970!2zMTk3IEzDqiBUaGFuaCBOZ2jhu4ssIEhvw6AgQ8aw4budbmcgQuG6r2MsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1572599977438!5m2!1svi!2s" width="100%" height="120" frameborder="0" style="border: 0;" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="chungnhan">
+                                        <li class="visa">visa
+                                        </li>
+                                        <li class="mastercard">mastercard
+                                        </li>
+                                        <li class="amex">amex
+                                        </li>
+                                        <li class="cirrus">cirrus
+                                        </li>
+                                        <li class="paypal">paypal
+                                        </li>
+                                        <div class="clr"></div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+            </footer>
+            <!--Scroll to Top-->
+            <a href="#" class="scrollToTop">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+            <script>
+                $(document).ready(function () {
+
+                    //Check to see if the window is top if not then display button
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 100) {
+                            $('.scrollToTop').fadeIn();
+                        } else {
+                            $('.scrollToTop').fadeOut();
+                        }
+                    });
+
+                    //Click event to scroll to top
+                    $('.scrollToTop').click(function () {
+                        $('html, body').animate({
+                            scrollTop: 0
+                        }, 600);
+                        return false;
+                    });
+
+
+                    $('.uncover-web').off('click').on('click', function () {
+
+                        $(this).removeClass('cover-web');
+                        $(this).next('header').find('div.navbar-push.navbar-push-right').removeClass('in');
+                        $(this).parents('body').removeClass("pushed-right");
+                    });
+
+
+                    $(".more-footer").off('click').on('click', function () {
+
+                        $(this).toggleClass('drop');
+                        $(this).parents('aside.widget-footer').find("p , ul").slideToggle("300");
+                        $(this).parents('div.footer-facebook').find("div.face-content, div.header-socials").slideToggle("300");
+
+                    });
+
+                });
+            </script>
+            <link rel="stylesheet" type="text/css" href="/css/bootstrap-spinedit.css" />
+            <script type="text/javascript" src="/js/bootstrap-spinedit.js"></script>
+            <%--<div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <ul class="drop-child">
+                        <asp:Repeater ID="rpMenuResponsive" runat="server">
+                            <ItemTemplate>
+                                <li class="menu-nav">
+                                    <a onclick="openNavv()" href="#"><%#Eval("productcate_title") %> <i class="<%#Eval("Product_menu") %>"></i></a>
+                                </li>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </ul>
+                </div>
+            </div>--%>
+            <script>
+                function openNav() {
+                    document.getElementById("myNav").style.width = "40%";
+                }
+
+                function closeNav() {
+                    document.getElementById("myNav").style.width = "0%";
+                }
+            </script>
+            <%--<div id="myNav1" class="overlay1">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNavv()">&times;</a>
+                <div class="overlay-content1">
+                    <ul class="drop-child">
+                        <asp:Repeater ID="rpMenuResponsive_Cate" runat="server"><ItemTemplate>
+                        <li class="menu-nav">
+                            <a href="#">Rèm Vải </a>
+                        </li>
+                            </ItemTemplate></asp:Repeater>--%>
+                       <%-- <li class="menu-nav">
+                            <a href="#">Rèm Cuốn</a>
+                        </li>
+                        <li class="menu-nav">
+                            <a href="#">Rèm lá Dọc</a>
+                        </li>
+                        <li class="menu-nav">
+                            <a href="#">Rèm Gỗ</a>
+                        </li>
+                        <li class="menu-nav">
+                            <a href="#">Rèm Nhôm</a>
+                        </li>--%>
+
+               <%--     </ul>
+                </div>
+            </div>--%>
+            <script>
+                function openNavv() {
+                    document.getElementById("myNav1").style.width = "40%";
+                }
+
+                function closeNavv() {
+                    document.getElementById("myNav1").style.width = "0%";
+                }
+            </script>
+            <%--<div id="myNav2" class="overlay2">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNavvv()">&times;</a>
+                <div class="overlay-content2">
+                    <ul class="drop-child">
+                        <li class="menu-nav">
+                            <a href="#">Rèm Vải </a>
+                        </li>
+                        <li class="menu-nav">
+                            <a href="#">Rèm Cuốn</a>
+                        </li>
+                        <li class="menu-nav">
+                            <a href="#">Rèm lá Dọc</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>--%>
+            <script>
+                function openNavvv() {
+                    document.getElementById("myNav2").style.width = "40%";
+                }
+
+                function closeNavvv() {
+                    document.getElementById("myNav2").style.width = "0%";
+                }
+            </script>
+
+            <asp:ContentPlaceHolder ID="hifootersite" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>
